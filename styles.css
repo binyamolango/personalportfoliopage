@@ -1,0 +1,33 @@
+#navbar{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgb(189, 52, 52);
+  padding: 0.2em;
+}
+
+#navlist {
+    color: whitesmoke;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+  }
+  
+  li {
+    float: right;
+    list-style-type: none;
+    font-size: x-large;
+  }
+  
+  li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: rgba(13, 13, 76, 0.683);
+  }
+
