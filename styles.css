@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *, ::before, ::after {
     box-sizing: border-box;
     margin: 0;
@@ -202,4 +203,180 @@ figcaption {
     figure {
         width: 32%;
     }
+=======
+
+#navbar{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgb(189, 52, 52);
+  padding: 0.2em;
+}
+
+#navlist {
+    color: whitesmoke;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+    float: right;
+  }
+  
+  .nav{
+    float: right;
+    list-style-type: none;
+    font-size: x-large;
+    display: inline;
+  }
+  
+.nav a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 5px 20px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: rgba(13, 13, 76, 0.683);
+  }
+
+#welcome-section{
+  background-color: rgba(0, 0, 0, 0.77);
+  width: 100%;
+  height: 500px;
+  padding-top: 300px;
+  text-align: center;
+}
+
+#hone{
+  font-family: sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  color: whitesmoke;
+  margin: auto;
+}
+
+#par{
+  color: rgb(189, 52, 52);
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+h3{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 40px;
+  font-family: sans-serif;
+  color: whitesmoke;
+  font-weight: 70;
+}
+
+#projects{
+  background-color: rgb(75, 96, 150);
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+
+}
+
+.project-grid{
+  display: grid;
+  gap: 1rem;
+  grid-auto-flow: row;
+  margin: 0 0 1rem 0;
+  text-align: center;
+}
+
+.grid-item{
+  text-align: center;
+  width: 100%;
+
+}
+
+.project-title{
+  text-decoration: underline;
+  color: whitesmoke;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin: auto;
+  padding-bottom: 25px;
+  padding-top: 15px;
+  background-color: rgb(45, 44, 44);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.show-all{
+  text-decoration: underline;
+  color: whitesmoke;
+  font-family: sans-serif;
+  font-size: 20px;
+  background-color: rgb(45, 44, 44);
+}
+
+#contact{
+  background-color: rgb(45, 44, 44);
+  width: 100%;
+  padding-top: 50px;
+  text-align: center;
+  height: 400px;
+  color: whitesmoke;
+  font-family: sans-serif;
+}
+
+#htwo{
+    font-family: sans-serif;
+    font-size: 53px;
+    font-weight: 700;
+    color: whitesmoke;
+    margin: auto;
+    padding-top: 50px;
+}
+
+#par2{
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.contactlist{
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 500;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 0.3em;
+  font-size: x-large;
+}
+
+.link{
+  display: inline;
+  list-style-type: none;
+}
+
+.link a{
+  color: whitesmoke;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+footer{
+  background-color: rgb(45, 44, 44);
+  width: 100%;
+  text-align: center;
+  height: 120px;
+  color: whitesmoke;
+  font-family: sans-serif;
+}
+
+footer a{
+  color: whitesmoke;
+  font-family: sans-serif;
+>>>>>>> 8bcd34b3584450ec0d1ab8fe191185fc265c4fb5
 }
